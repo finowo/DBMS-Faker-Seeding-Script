@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- setup -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Faker Script</title>
+		<!-- fonts -->
+		<link rel="stylesheet" href="https://use.typekit.net/dil8uaa.css" />
+		<!-- css -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+		<link rel="manifest" href="assets/favicon/site.webmanifest" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-md sticky-top navbarColor">
+			<div class="container">
+				<ul class="navbar-nav">
+					<li>
+						<a href="/" class="nav-item">
+							<img src="assets/svgs/home.svg" width="40" alt="home" />
+						</a>
+					</li>
+					<li>
+						<a href="/" class="nav-item">
+							<span class="nav-item homeText">Faker Script</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-link" id="themeButton">
+						<a href="#">
+							<svg
+								class="nav-item align-middle themeIcon"
+								id="darkIcon"
+								version="1.1"
+								id="Layer_1"
+								focusable="false"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 512 512"
+								style="enable-background: new 0 0 512 512"
+								xml:space="preserve"
+							>
+								<style type="text/css">
+									.st0 {
+										fill: #2e3440;
+									}
+								</style>
+								<path
+									class="st0"
+									d="M279.1,512c78.8,0,151-35.8,198.8-94.8c28.3-34.8-2.6-85.7-46.2-77.4c-82.3,15.7-158.3-47.3-158.3-130.8
+                      c0-48.4,26.1-92.3,67.4-115.8c38.7-22.1,29-80.8-15-88.9C310.4,1.4,294.7,0,279.1,0c-141.4,0-256,114.6-256,256
+                      C23.1,397.4,137.6,512,279.1,512z M279.1,48c13,0,25.7,1.2,38,3.5c-54.8,31.2-91.7,90-91.7,157.6c0,113.8,103.6,199.2,215.3,177.9
+                      c-38.1,47-96.3,77-161.6,77c-114.9,0-208-93.1-208-208S164.2,48,279.1,48z"
+								/>
+							</svg>
+						</a>
+						<a href="#">
+							<svg
+								class="nav-item themeIcon"
+								id="lightIcon"
+								id="Layer_1"
+								data-name="Layer 1"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 127.46 127.44"
+							>
+								<defs>
+									<style>
+										.cls-1 {
+											fill: #eceff4;
+										}
+									</style>
+								</defs>
+								<path
+									class="cls-1"
+									d="M123.27,55.52,108.39,45.44l3.41-17.68A10.06,10.06,0,0,0,100,15.94L82.38,19.35l-10-14.91c-3.76-5.55-12.92-5.55-16.68,0L45.59,19.35,28,15.94a10.1,10.1,0,0,0-11.8,11.82l3.41,17.68L4.7,55.52a10.08,10.08,0,0,0,0,16.7L19.58,82.3,16.17,100A10.08,10.08,0,0,0,28,111.77l17.62-3.41,10.06,14.9a10,10,0,0,0,16.68,0l10-14.91L100,111.79a9.94,9.94,0,0,0,9-2.76,10.11,10.11,0,0,0,2.77-9l-3.41-17.67L123.3,72.24a10.08,10.08,0,0,0,0-16.72Zm-28.1,21.3,4.38,22.7L76.91,95.14,64,114.28,51.07,95.11,28.45,99.5l4.38-22.7L13.71,63.85,32.83,50.91l-4.38-22.7,22.64,4.38L64,13.48,76.91,32.62l22.64-4.38L95.17,50.91l19.12,12.94-19.12,13ZM64,38.12A25.89,25.89,0,1,0,89.87,64,25.93,25.93,0,0,0,64,38.12Zm0,39.82A13.94,13.94,0,1,1,77.93,64,14,14,0,0,1,64,77.94Z"
+									transform="translate(-0.27 -0.28)"
+								/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container centerText">
+			<h1>Keyboard Script</h1>
+			<p id="keyboards"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Keyswitch Script</h1>
+			<p id="keyswitch"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Employee Script</h1>
+			<p id="employee"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Customer Script</h1>
+			<p id="customer"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Order Script</h1>
+			<p id="order"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Warehouse Script</h1>
+			<p id="warehouse"></p>
+		</div>
+		<div class="container centerText">
+			<h1>Keyboard Employee Script</h1>
+			<p id="keyboardEmployee"></p>
+		</div>
+	</body>
+	<!-- js -->
+	<script src="js/faker.js" type="text/javascript"></script>
+	<script src="js/fakerScript.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</html>
